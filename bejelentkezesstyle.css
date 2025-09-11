@@ -1,0 +1,58 @@
+.container, .gombok, #jelzes{
+    width: 1000px;
+    display: block;
+    margin: auto;
+}
+.containerbej, .containerreg{
+    width: 450px;/*középre igazítás feltételei: fix szélesség width: 500px és margin: auto*/
+    /* visibility: hidden; */
+    display: inline-block; /*ennek segítségével kerülhetnek egy sorba az adott elemek*/
+    padding: 20px;
+    visibility: hidden;
+}
+input{
+    margin: 5px;
+    width: 200px;
+}
+.gomb{
+    width: 200px;
+    margin: auto;
+    padding: 20px;
+} 
+#bejgomb{
+    margin-right: 100px;
+}
+#reggomb{
+    margin-left: 120px;
+}
+#jelzes{
+    text-align: center;
+}
+.gombok{
+    margin-top: 30px;
+}
+
+body{
+    background-color: #dee1dd;
+    color: #28363d;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#belepes, #regisztracio{
+    background-color: #2f575d;
+    color: #dee1dd;
+    width: 100px;
+    height: 25px;
+    border-radius: 10px;
+    border-style: none;
+}
+#bejgomb, #reggomb{
+    width: 300px;
+    height: 30px;
+    background-color: #2f575d;
+    color: #dee1dd;
+    border-radius: 10px;
+    border-style: none;
+}
+#bejgomb:hover, #reggomb:hover, #belepes:hover, #regisztracio:hover{
+    background-color: #457f88;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bejelentkezesstyle.css">
+    <title>Bejelentkezés</title>
+</head>
+<body>
+    <div class="gombok">
+        <button id="bejgomb">Bejelentkezés</button>
+        <button id="reggomb">Regisztráció</button>   
+    </div>
+
+    <div class="container">
+        <div class="containerbej" id="bejel">
+            <h1>Bejelentkezés</h1>
+            Email: <input type="email" id="bejemail" placeholder="john.doe@example.com"><br>
+            Jelszó: <input type="password" id="bejjelszo"><br>
+            <div class="gomb">
+                <button id="belepes">Belépés</button>
+            </div>
+        </div>
+        <div class="containerreg" id="regisz">
+            <h1>Regisztráció</h1>
+            Email: <input type="email" id="regemail" placeholder="john.doe@example.com"><br>
+            Jelszó: <input type="password" id="regjelszo" ><br>
+            Jelszó megerősítése: <input type="password" id="regerosites"><br>
+            <div class="gomb">
+                <button id="regisztracio">Regisztráció</button>
+            </div>
+        </div>
+    </div>
+
+    <p id="jelzes"></p>
+    <script src="bejelentkezesscript.js"></script>
+</body>
+</html>
